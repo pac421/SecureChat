@@ -3,6 +3,6 @@ CREATE TABLE `USER`
     id VARCHAR(8) PRIMARY KEY NOT NULL,
     email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-    firstname VARCHAR(255) NOT NULL,
-    lastname VARCHAR(255) NOT NULL
+    firstname VARCHAR(32) NOT NULL,
+    lastname VARCHAR(32) NOT NULL
 );
